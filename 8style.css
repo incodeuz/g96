@@ -1,0 +1,617 @@
+body{
+    background-color: violet;
+}
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 1350px;
+        background-color: #201e1e;
+        height: 900px;
+        
+    }
+    .navbar{
+        width: 1010px;
+        display: flex;
+        color: white;
+        margin-left: 200px;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    .item1{
+        padding: 10px 15px;
+    }
+    .item1:hover{
+        background-color: black;
+        color: orange;
+        border-bottom: 5px solid turquoise;
+    border-radius: 15px;
+        transition: all 0.2s;
+    }
+    .item11{
+        padding: 10px 15px;
+    }
+    .goal{
+        color: orange;
+    }
+    .goal:hover{
+        background-color: black;
+        color: blue;
+        border-bottom: 5px solid turquoise;
+    border-radius: 15px;
+        transition: all 0.2s;
+    }
+    
+    .item{
+        border-radius: 2px;
+        padding: 11px 13px;
+        position: relative;
+        text-align: center;
+        /* border: 1px solid white; */
+        margin-right: 65px;
+        background-color: orange;
+        margin-top: -5px;
+        font-size: 23px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    .item:hover{
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid turquoise;
+        border-radius: 15px;
+        transition: all 0.2s;
+    }
+    .itemm{
+        display: flex;
+    }
+    .icon{
+        padding: 0 20px 0 150px;
+        /* padding-left:0px; */
+    }
+    
+    
+    .iconn{
+        border-radius: 2px;
+        width: 18px ;
+        height: 18px;
+        padding: 2px 0 0 4px;
+        background-color: orange;
+        margin-top:-3px ;
+    }
+    .navbar2{
+        display: flex;
+        /* border: 1px solid white; */
+        height: 550px;
+        color: white;
+        cursor: pointer;
+    }
+    .kun{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    
+    }
+    .wen{
+        padding: 0 10px;
+    }
+    .mon{
+        color: orange;
+    }
+    .ism{
+        position: absolute;
+        font-family:sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        padding-top: 60px;
+        left: 350px;
+    }
+    .willi{
+        position: absolute;
+        width: 290px;
+        left: 490px;
+    }
+    .william{
+        padding-left: 60px;
+    }
+    .dumaloq{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: turquoise;
+        left: 885px;
+        top: 170px;
+    }
+    .uch{
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid rgb(77, 76, 76);
+        left: 850px;
+        top: 140px; 
+        transform: rotate(-32deg);
+    }
+    .job{
+        position: absolute;
+        color: orange;
+        left: 820px;
+        top: 250px;
+    }
+    .bio{ 
+        position: absolute;
+        color: white;
+        left: 820px;
+        top: 290px;
+        font-size: 25px;
+    }
+    .lorem{
+        position: absolute;
+        color: white;
+        font-size: 12px;
+        left: 820px;
+        top: 400px;
+    }
+    .biogr{
+        position: absolute;
+        color: orange;
+        font-size: 12px;
+        left: 823px;
+        top: 480px;
+    }
+    .navbar3{
+        /* border: 1px solid white; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 550px;
+        cursor: pointer;
+    }
+    .item3{
+        padding-left: 45px;
+    }
+    .motiv{
+        color: orange;
+        margin-left: 130px;
+    }
+    .lorem20{
+        display: flex;
+        color: white;
+        margin-left: 130px;
+    }
+    .motword{
+        color: white;
+        font-size: 25px;
+        padding-top: 20px;
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+    .content2{
+        margin-top: 10px;
+        position: absolute;
+        /* width: 500px; */
+        /* border: 1px solid white; */
+        left: 650px;
+        cursor: pointer;
+    }
+    .any{
+        font-size: 35px;
+        color: white;
+    }
+    .lets{
+        color: white;
+        padding: 40px 40px;
+    }
+    .info{
+        color: orange;
+    }
+    
+}  .container{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    background-color: #201e1e;
+    height: 500px;
+    
+}
+.navbar{
+    width: 810px;
+    display: flex;
+    color: white;
+    margin-left: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.item1{
+    padding: 10px 15px;
+}
+.item1:hover{
+    background-color: black;
+    color: orange;
+    border-bottom: 5px solid turquoise;
+border-radius: 15px;
+    transition: all 0.2s;
+}
+.item11{
+    padding: 10px 15px;
+}
+.goal{
+    color: orange;
+}
+.goal:hover{
+    background-color: black;
+    color: blue;
+    border-bottom: 5px solid turquoise;
+border-radius: 15px;
+    transition: all 0.2s;
+}
+
+.item{
+    border-radius: 2px;
+    padding: 11px 13px;
+    position: relative;
+    text-align: center;
+    /* border: 1px solid white; */
+    margin-right: 65px;
+    background-color: orange;
+    margin-top: -5px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.item:hover{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid turquoise;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+.itemm{
+    display: flex;
+}
+.icon{
+    padding: 0 20px 0 150px;
+    /* padding-left:0px; */
+}
+
+
+.iconn{
+    border-radius: 2px;
+    width: 18px ;
+    height: 18px;
+    padding: 2px 0 0 4px;
+    background-color: orange;
+    margin-top:-3px ;
+}
+.navbar2{
+    display: flex;
+    /* border: 1px solid white; */
+    height: 550px;
+    color: white;
+    cursor: pointer;
+}
+.kun{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+.wen{
+    padding: 0 10px;
+}
+.mon{
+    color: orange;
+}
+.ism{
+    position: absolute;
+    font-family:sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 60px;
+    left: 350px;
+}
+.willi{
+    position: absolute;
+    width: 290px;
+    left: 490px;
+}
+.william{
+    padding-left: 60px;
+}
+.dumaloq{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: turquoise;
+    left: 885px;
+    top: 170px;
+}
+.uch{
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid rgb(77, 76, 76);
+    left: 850px;
+    top: 140px; 
+    transform: rotate(-32deg);
+}
+.job{
+    position: absolute;
+    color: orange;
+    left: 820px;
+    top: 250px;
+}
+.bio{ 
+    position: absolute;
+    color: white;
+    left: 820px;
+    top: 290px;
+    font-size: 25px;
+}
+.lorem{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    left: 820px;
+    top: 400px;
+}
+.biogr{
+    position: absolute;
+    color: orange;
+    font-size: 12px;
+    left: 823px;
+    top: 480px;
+}
+.navbar3{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    cursor: pointer;
+}
+.item3{
+    padding-left: 45px;
+}
+.motiv{
+    color: orange;
+    margin-left: 130px;
+}
+.lorem20{
+    display: flex;
+    color: white;
+    margin-left: 130px;
+}
+.motword{
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.content2{
+    margin-top: 10px;
+    position: absolute;
+    /* width: 500px; */
+    /* border: 1px solid white; */
+    left: 650px;
+    cursor: pointer;
+}
+.any{
+    font-size: 35px;
+    color: white;
+}
+.lets{
+    color: white;
+    padding: 40px 40px;
+}
+@media screen and (max-width:600px){
+   .container{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    background-color: #201e1e;
+    height: 500px;
+}
+.navbar{
+    width: 500px;
+    display: flex;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.item1{
+    padding: 3px 7px;
+    font-size: 10px;
+}
+.item11{
+    padding: 3px 7px;
+    font-size: 10px;
+}
+    
+.item{
+    height: 12px;
+    border-radius: 2px;
+    padding: 3px;
+    position: relative;
+    /* text-align: center; */
+    /* border: 1px solid white; */
+    margin-right: 20px;
+    background-color: orange;
+    margin-top: 0px;
+    font-size: 11px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.itemm{
+    font-size:6px;
+    margin-top: 2px;
+    display: flex;
+}
+.icon{
+    padding: 0 8px 0 15px;
+    /* padding-left:0px; */
+}
+
+
+.iconn{
+    border-radius: 2px;
+    width:6px ;
+    height: 6px;
+    padding: 1px 0 0 2px;
+    background-color: orange;
+    margin-top:-3px ;
+
+}
+.navbar2{
+    width: 550px;
+    display: flex;
+    /* border: 1px solid white; */
+    height: 250px;
+    color: white;
+    cursor: pointer;
+}
+.kun{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-left: 20px;
+font-size: 10px;
+}
+.wen{
+    padding: 0 4px;
+}
+.fri{
+    margin-bottom: 10px;
+}
+.ism{
+    position: absolute;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    left: 170px;
+}
+.willi{
+    position: absolute;
+    width: 160px;
+    left: 200px;
+}
+.william{
+    padding-left: 20px;
+}
+.dumaloq{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: turquoise;
+    left: 385px;
+    top: 100px;
+}
+.uch{
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgb(77, 76, 76);
+    left: 365px;
+    top: 88px; 
+    transform: rotate(-42deg);
+}
+.job{
+    position: absolute;
+    color: orange;
+    left: 370px;
+    top: 140px;
+    font-size: 8px;
+}
+.bio{ 
+    position: absolute;
+    color: white;
+    left: 370px;
+    top: 160px;
+    font-size: 10px;
+}
+.lorem{
+    position: absolute;
+    color: white;
+    font-size: 6px;
+    left: 370px;
+    top: 200px;
+}
+.biogr{
+    position: absolute;
+    color: orange;
+    font-size: 7px;
+    left: 370px;
+    top: 235px;
+}
+
+.navbar3{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    cursor: pointer;
+}
+.item3{
+    padding-left: 0px;
+    font-size: 8px;
+}
+.motiv{
+    color: orange;
+    margin-left: 70px;
+}
+.lorem20{
+    display: flex;
+    color: white;
+    margin-left: 70px;
+}
+.motword{
+    color: white;
+    font-size: 11px;
+    padding-top: 8px;
+    margin-left: 70px;
+    margin-bottom: 8px;
+}
+.content2{
+    margin-top: 0px;
+    position: absolute;
+    /* width: 500px; */
+    /* border: 1px solid white; */
+    left: 280px;
+    cursor: pointer;
+}
+.lets{
+    color: white;
+    padding: 10px 0px;
+}
+.any{
+    font-size: 13px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+}.info{
+    color: orange;
+}
+
