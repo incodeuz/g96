@@ -1,0 +1,361 @@
+
+body{
+    background-color: rgb(106, 166, 173);
+}
+
+.container{
+     display: flex; 
+    /* justify-content: center;  */
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    margin-left: 70px;
+    
+
+}
+.aaa{
+    opacity: 0.9;
+}
+
+.item{
+    display: flex;
+    position: relative;
+    z-index: 1;
+
+  
+}
+.soz{
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 35px;
+    left: 38px;
+}
+.romb {
+    width: 0; 
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgb(17, 255, 231);
+    position: relative; 
+    top: -50px;
+    }
+    .romb:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    left: -50px; 
+    top: 50px;
+    border: 50px solid transparent;
+    border-top-color: rgb(135, 226, 217);
+    }
+
+
+
+
+    .item2{
+        display: flex;
+        position: relative;
+        right: 42px;
+        top: 7px;
+        
+      
+       
+    }
+    .soz2{
+        z-index: 1;
+        opacity: 1.2;
+        font-weight: 700;
+        color: white;
+        font-family: sans-serif;
+        font-size: 25px;
+        position: absolute;
+        top: 35px;
+        left: 38px; 
+    }
+    .romb2 {
+        width: 0; 
+        height: 0;
+        border: 50px solid transparent;
+        border-bottom-color: rgb(255, 72, 0);
+        position: relative; 
+        top: -50px;
+        }
+       
+        .romb2:after {
+        content: "";
+        width: 0; 
+        height: 0;
+        position: absolute; 
+        left: -50px; 
+        top: 50px;
+        border: 50px solid transparent;
+        border-top-color: rgb(231, 139, 103);
+
+        }
+        .item3{
+            display: flex;
+            position: relative;
+            left: 44px;
+            bottom: 14px;
+            /* z-index: 1; */
+           
+        }
+        .soz3{
+            font-weight: 700;
+            color: white;
+            font-family: sans-serif;
+            font-size: 25px;
+            position: absolute;
+            top: 35px;
+            left: 38px; 
+        }
+        .romb3 {
+            width: 0; 
+            height: 0;
+            border: 50px solid transparent;
+            border-bottom-color: purple;
+            position: relative; 
+            top: -50px;
+            }
+           
+            .romb3:after {
+            content: "";
+            width: 0; 
+            height: 0;
+            position: absolute; 
+            left: -50px; 
+            top: 50px;
+            border: 50px solid transparent;
+            border-top-color: rgb(175, 67, 175);
+    
+}
+
+.item22{
+    display: flex;
+    position: relative;
+    right: 194px;
+    bottom: 37px;
+    
+}
+.soz22{
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 7px;
+    left: 42px; 
+    transform: rotate(90deg);
+}
+.romb22 {
+    width: 0; 
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgb(24, 134, 24);
+    position: relative; 
+    top: -50px;
+    }
+   
+    .romb22:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    left: -50px; 
+    top: 50px;
+    border: 50px solid transparent;
+    border-top-color: rgb(39, 173, 39);
+}
+.item222{
+    
+    display: flex;
+    position: relative;
+    right: 307px;
+    top: 50px;
+    
+}
+.soz222{
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 70px;
+    left: 40px; 
+    transform: rotate(90deg);
+}
+.romb222{ 
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgb(255, 72, 0);
+    position: relative; 
+    top: -50px;
+    }
+   
+    .romb222:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    left: -50px; 
+    top: 50px;
+    border: 50px solid transparent;
+    border-top-color: rgb(231, 139, 103);
+}
+
+
+
+.item33{
+    
+    display: flex;
+    position: relative;
+    right: 377px;
+    top: 15px;
+    
+}
+ .soz33{
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 80px; 
+} 
+.romb33{ 
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgb(24, 134, 24);
+    position: relative; 
+    top: -50px;
+    }
+   
+    .romb33:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    left: -50px; 
+    top: 50px;
+    border: 50px solid transparent;
+    border-top-color:rgb(39, 173, 39) ;
+    opacity: 0.7;
+}
+
+.item333{
+    
+    display: flex;
+    position: relative;
+    right: 510px;
+    top: 43px;
+    
+}
+.soz333{
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    left: 40px; 
+}
+.romb333{ 
+    height: 0;
+    border: 30px solid transparent;
+    border-bottom-color: rgb(24, 134, 24);
+    position: relative; 
+    top: -50px;
+    }
+   
+    .romb333:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    left: -30px; 
+    top: 30px;
+    border: 30px solid transparent;
+    border-top-color:rgb(39, 173, 39) ;
+
+}
+.lor{
+    position: absolute;
+    font-size: 5px;
+    top: 43px;
+    left: 10px;
+    color: white;
+    opacity: 0.5;
+}
+.lor2{
+    position: absolute;
+    font-size: 5px;
+    color: white;
+    top: 50px;
+    left: 60px;
+    opacity: 0.5;
+}
+.anti1{
+    position: absolute;
+    font-size: 7px;
+    color: white;
+    transform: rotate(-41deg);
+    top: 66px;
+    left: 35px;
+    opacity: 0.7;
+}
+.anti2{
+    position: absolute;
+    font-size: 7px;
+    color: white;
+    transform: rotate(-41deg);
+    top: 60px;
+    left: 50px;
+    opacity: 0.7;
+}
+.soz23{
+
+        font-weight: 700;
+        color: white;
+        font-family: sans-serif;
+        font-size:9px;
+        position: absolute;
+        top: 45px;
+        left: 57px; 
+        transform: rotate(90deg);
+}
+.soz2222{
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 43px;
+    left: 20px; 
+    transform: rotate(90deg);
+}
+
+.soz3333{
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 6px;
+    position: absolute;
+    top: 40px;
+    left: 70px; 
+}
+
+.soz3332{
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 6px;
+    position: absolute;
+    top: 40px;
+    left: 76px; 
+    transform: rotate(45deg);
+}
